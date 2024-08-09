@@ -1,0 +1,35 @@
+
+div {
+    /* padding: 20px; */
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    position: absolute;
+}
+
+.blue {
+    background-color: blue;
+    z-index: 40;
+    margin-left: 10px;
+}
+
+.black {
+    background-color: black;
+    z-index: 80;
+    top: 15px;
+    left: 20px;
+}
+
+.green {
+    background-color: green;
+    top: 30px;
+    left: 25px;
+    z-index: 90;
+}
+
+.red {
+    background-color: red;
+    top: 35px;
+    left: 30px;
+    z-index: 100;
+}
