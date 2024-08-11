@@ -10,11 +10,22 @@ div {
     padding: 30px;
 }
 
-div::first-letter {
+/* div::first-letter {
     color: white;
     display: inline-block;
     font-size: 40px;
     margin-left: -100px;
     padding: 8px 10px;
+    background-color: red;
+} */
+
+/* كده احسن */
+div::first-letter {
+    color: white;
+    display: inline-block;
+    font-size: 44px;
+    margin-left: -82px;
+    margin-right: 16px;
+    padding: 14px 12px;
     background-color: red;
 }
