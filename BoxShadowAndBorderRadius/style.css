@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: -6px -6px 0px 0px #e91e63, 6px 6px 0px 0px #2196f3;
+    border: 3px black solid;
+    position: relative;
+    counter-increment: counter;
+}
+
+div::after {
+    position: absolute;
+    content: counter(counter);
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: -18px;
+}
+
+
+div::before {
+    position: absolute;
+    content: "Element";
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -25px;
+    top: 50%;
+    left: 50%;
+}
