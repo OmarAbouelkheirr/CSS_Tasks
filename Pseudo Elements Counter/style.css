@@ -1,0 +1,20 @@
+p {
+    position: relative;
+    width: 320px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 20px;    
+    border-right: #ffa51d 5px solid;
+    counter-increment: counter;
+}
+
+p::after {
+    position: absolute;
+    content: counter(counter);
+    background-color: #ffa51d;
+    left: -50px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 20px;
+}   
